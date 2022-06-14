@@ -30,7 +30,7 @@ public class SwedTaskTests {
     {
         //Assuming, of course, that the calculator has already been tested and returns correct values.
         //I think a test with hardcoded values, such as this one, would prove to be helpful for a regression test
-        //in the future where the calculation in the background has been re-written.
+        //in the future where the calculation in the background has been re-written or changed.
 
         $(By.name("calc_d5")).setValue("123");
         $(By.name("calc_d6")).selectOptionByValue("90");
